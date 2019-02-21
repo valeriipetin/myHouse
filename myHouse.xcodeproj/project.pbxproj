@@ -7,21 +7,195 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE43AB775DCD5A478C69D39F /* Pods_myHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6608364ABAD38213F77C42F9 /* Pods_myHouse.framework */; };
+		EF09C90E1EA8DF8D00B5DEB3 /* PreviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09C90D1EA8DF8D00B5DEB3 /* PreviewTableViewController.swift */; };
+		EF0BC71A1E39876A009D744B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0BC7191E39876A009D744B /* AdSupport.framework */; };
+		EF0BC71C1E399A44009D744B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF0BC71B1E399A44009D744B /* GoogleService-Info.plist */; };
+		EF16B0A51E48FFA6008FE4A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B0A41E48FFA6008FE4A4 /* HomeViewController.swift */; };
+		EF19158C1EAA36950095D11D /* KupitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19158B1EAA36950095D11D /* KupitViewController.swift */; };
+		EF19158E1EAA36C80095D11D /* SnyatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF19158D1EAA36C80095D11D /* SnyatViewController.swift */; };
+		EF2AE6D11E6DF9D5000AE461 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AE6D01E6DF9D5000AE461 /* AddTableViewController.swift */; };
+		EF2AE6D31E6E0738000AE461 /* TypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2AE6D21E6E0738000AE461 /* TypeTableViewController.swift */; };
+		EF3FE8911E521B9900EC26C2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3FE8901E521B9900EC26C2 /* ProfileViewController.swift */; };
 		EF46DFE21E38376100579247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46DFE11E38376100579247 /* AppDelegate.swift */; };
-		EF46DFE41E38376100579247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46DFE31E38376100579247 /* ViewController.swift */; };
 		EF46DFE71E38376100579247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF46DFE51E38376100579247 /* Main.storyboard */; };
 		EF46DFE91E38376100579247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF46DFE81E38376100579247 /* Assets.xcassets */; };
 		EF46DFEC1E38376100579247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF46DFEA1E38376100579247 /* LaunchScreen.storyboard */; };
+		EF46DFF41E3837C000579247 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46DFF31E3837C000579247 /* LoginViewController.swift */; };
+		EF46DFF61E3837D200579247 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46DFF51E3837D200579247 /* SingUpViewController.swift */; };
+		EF5455791EC09AE2004CA1B4 /* PreviewDachaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5455781EC09AE2004CA1B4 /* PreviewDachaTableViewController.swift */; };
+		EF54557C1EC0B376004CA1B4 /* SearchHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54557B1EC0B376004CA1B4 /* SearchHomeViewController.swift */; };
+		EF5455801EC0B3C7004CA1B4 /* SearchDmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54557F1EC0B3C7004CA1B4 /* SearchDmViewController.swift */; };
+		EF5455821EC0B3EB004CA1B4 /* PreviewHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5455811EC0B3EB004CA1B4 /* PreviewHomeTableViewController.swift */; };
+		EF5455841EC0B406004CA1B4 /* PreviewDmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5455831EC0B406004CA1B4 /* PreviewDmTableViewController.swift */; };
+		EF5455861EC0B4B5004CA1B4 /* PostSnyatHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5455851EC0B4B5004CA1B4 /* PostSnyatHomeCell.swift */; };
+		EF5455881EC0B4EA004CA1B4 /* PostSnyatDomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5455871EC0B4EA004CA1B4 /* PostSnyatDomCell.swift */; };
+		EF69BC2E1E583451000D3823 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69BC2D1E583451000D3823 /* PostCell.swift */; };
+		EF69BC301E583B2F000D3823 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69BC2F1E583B2F000D3823 /* Post.swift */; };
+		EF69BC321E583C76000D3823 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69BC311E583C76000D3823 /* SearchViewController.swift */; };
+		EF6B01B91E8D3BEF00AF3B7E /* AddDomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01B81E8D3BEF00AF3B7E /* AddDomTableViewController.swift */; };
+		EF6B01BB1E8D40D600AF3B7E /* DomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01BA1E8D40D600AF3B7E /* DomTypeTableViewController.swift */; };
+		EF6B01BD1E8D485500AF3B7E /* DomFloorsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01BC1E8D485500AF3B7E /* DomFloorsHomeTableViewController.swift */; };
+		EF6B01BF1E8D487600AF3B7E /* DomVodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01BE1E8D487600AF3B7E /* DomVodTableViewController.swift */; };
+		EF6B01C11E8D488300AF3B7E /* DomGasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01C01E8D488300AF3B7E /* DomGasTableViewController.swift */; };
+		EF6B01C31E8D489400AF3B7E /* DomPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01C21E8D489400AF3B7E /* DomPlanTableViewController.swift */; };
+		EF6B01C51E8D48A300AF3B7E /* DomBathroomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01C41E8D48A300AF3B7E /* DomBathroomTableViewController.swift */; };
+		EF6B01C71E8D48B500AF3B7E /* DomOtopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01C61E8D48B500AF3B7E /* DomOtopTableViewController.swift */; };
+		EF6B01C91E8D48CA00AF3B7E /* DomTypeOtopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01C81E8D48CA00AF3B7E /* DomTypeOtopTableViewController.swift */; };
+		EF6B01CB1E8D48E700AF3B7E /* DomCanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01CA1E8D48E700AF3B7E /* DomCanTableViewController.swift */; };
+		EF6B01CD1E8D48F600AF3B7E /* DomNumRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01CC1E8D48F600AF3B7E /* DomNumRoomsTableViewController.swift */; };
+		EF6B01CF1E8D490100AF3B7E /* DomMatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01CE1E8D490100AF3B7E /* DomMatTableViewController.swift */; };
+		EF6B01D11E8D491100AF3B7E /* DomUserTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B01D01E8D491100AF3B7E /* DomUserTypeTableViewController.swift */; };
+		EF9703A91E66E0D8000140FB /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9703A81E66E0D8000140FB /* RecordViewController.swift */; };
+		EF9CC0521EBE377400EFF998 /* SearchDachaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC0511EBE377400EFF998 /* SearchDachaCollectionViewController.swift */; };
+		EF9CC0541EBE3A8700EFF998 /* PostKupitDachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9CC0531EBE3A8700EFF998 /* PostKupitDachCell.swift */; };
+		EFA1722D1E69CDDE002F4429 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1722C1E69CDDE002F4429 /* AboutViewController.swift */; };
+		EFAE94F51E7487C100C284B0 /* NumRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE94F41E7487C000C284B0 /* NumRoomsTableViewController.swift */; };
+		EFBF13431E7577A900440741 /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF13421E7577A900440741 /* OperationsViewController.swift */; };
+		EFBF13451E757BFC00440741 /* FloorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF13441E757BFC00440741 /* FloorTableViewController.swift */; };
+		EFBF13471E75808100440741 /* FloorsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF13461E75808100440741 /* FloorsHomeTableViewController.swift */; };
+		EFBF13491E7580D700440741 /* TypeHouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF13481E7580D700440741 /* TypeHouseTableViewController.swift */; };
+		EFBF134B1E75820900440741 /* PlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF134A1E75820900440741 /* PlanTableViewController.swift */; };
+		EFBF134D1E75822C00440741 /* BathroomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF134C1E75822B00440741 /* BathroomTableViewController.swift */; };
+		EFBF134F1E758D9F00440741 /* UserTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF134E1E758D9F00440741 /* UserTypeTableViewController.swift */; };
+		EFBF13511E7599A800440741 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF13501E7599A800440741 /* SaleViewController.swift */; };
+		EFC4354A1E50022700ECD2E4 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC435491E50022700ECD2E4 /* CustomImageView.swift */; };
+		EFCB5F271E52DAD20068A60F /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCB5F261E52DAD20068A60F /* EditProfileViewController.swift */; };
+		EFE4BD881E45776500B0F777 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4BD871E45776500B0F777 /* ResetPasswordViewController.swift */; };
+		EFE7E64E1E9145CE00F69342 /* AddRentDomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E64D1E9145CE00F69342 /* AddRentDomTableViewController.swift */; };
+		EFE7E6501E91463200F69342 /* RTypeHouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E64F1E91463200F69342 /* RTypeHouseTableViewController.swift */; };
+		EFE7E6521E91464200F69342 /* RTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6511E91464200F69342 /* RTimeTableViewController.swift */; };
+		EFE7E6541E91465100F69342 /* RNumRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6531E91465100F69342 /* RNumRoomsTableViewController.swift */; };
+		EFE7E6581E91467700F69342 /* RFloorsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6571E91467700F69342 /* RFloorsHomeTableViewController.swift */; };
+		EFE7E65A1E91468A00F69342 /* RPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6591E91468A00F69342 /* RPlanTableViewController.swift */; };
+		EFE7E65C1E91469C00F69342 /* RBathroomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E65B1E91469C00F69342 /* RBathroomTableViewController.swift */; };
+		EFE7E65E1E9146B100F69342 /* RVodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E65D1E9146B100F69342 /* RVodTableViewController.swift */; };
+		EFE7E6601E9146C600F69342 /* RGasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E65F1E9146C600F69342 /* RGasTableViewController.swift */; };
+		EFE7E6621E9146DB00F69342 /* ROtopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6611E9146DB00F69342 /* ROtopTableViewController.swift */; };
+		EFE7E6641E9146ED00F69342 /* ROtopTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6631E9146ED00F69342 /* ROtopTypeTableViewController.swift */; };
+		EFE7E6661E9146F900F69342 /* RCanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6651E9146F900F69342 /* RCanTableViewController.swift */; };
+		EFE7E6681E91470E00F69342 /* RMatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6671E91470E00F69342 /* RMatTableViewController.swift */; };
+		EFE7E66A1E91471D00F69342 /* RUserTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E6691E91471D00F69342 /* RUserTypeTableViewController.swift */; };
+		EFE7E66C1E915F3600F69342 /* RemontTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7E66B1E915F3600F69342 /* RemontTableViewController.swift */; };
+		EFF25EB71E8E56D1006C5078 /* AddDachTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF25EB61E8E56D1006C5078 /* AddDachTableViewController.swift */; };
+		EFF25EB91E8E5CF5006C5078 /* DachTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF25EB81E8E5CF5006C5078 /* DachTypeTableViewController.swift */; };
+		EFF25EBB1E8E5D0B006C5078 /* DachAvtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF25EBA1E8E5D0B006C5078 /* DachAvtTableViewController.swift */; };
+		EFF25EBD1E8E5D1B006C5078 /* DachUserTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF25EBC1E8E5D1B006C5078 /* DachUserTypeTableViewController.swift */; };
+		EFF9636C1EBB8794008B5341 /* SearchDomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF9636B1EBB8794008B5341 /* SearchDomViewController.swift */; };
+		EFF9636E1EBB87B2008B5341 /* PreviewDomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF9636D1EBB87B2008B5341 /* PreviewDomTableViewController.swift */; };
+		EFF963721EBB895C008B5341 /* PostKupitDomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF963711EBB895C008B5341 /* PostKupitDomCell.swift */; };
+		EFFABC0E1E8FF5C600E2B918 /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC0D1E8FF5C600E2B918 /* RentViewController.swift */; };
+		EFFABC121E8FF6E300E2B918 /* AddRentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC111E8FF6E300E2B918 /* AddRentTableViewController.swift */; };
+		EFFABC141E8FF73200E2B918 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC131E8FF73200E2B918 /* TimeTableViewController.swift */; };
+		EFFABC161E8FF75B00E2B918 /* RentTypeDomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC151E8FF75B00E2B918 /* RentTypeDomTableViewController.swift */; };
+		EFFABC181E8FF77000E2B918 /* RentNumRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC171E8FF77000E2B918 /* RentNumRoomsTableViewController.swift */; };
+		EFFABC1A1E8FF78400E2B918 /* RentFloorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC191E8FF78400E2B918 /* RentFloorTableViewController.swift */; };
+		EFFABC1C1E8FF79900E2B918 /* RentFloorsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC1B1E8FF79900E2B918 /* RentFloorsHomeTableViewController.swift */; };
+		EFFABC1E1E8FF7A900E2B918 /* RentTypeHouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC1D1E8FF7A900E2B918 /* RentTypeHouseTableViewController.swift */; };
+		EFFABC201E8FF7C100E2B918 /* RentPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC1F1E8FF7C100E2B918 /* RentPlanTableViewController.swift */; };
+		EFFABC221E8FF7D000E2B918 /* RentBathroomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC211E8FF7D000E2B918 /* RentBathroomTableViewController.swift */; };
+		EFFABC241E8FF7E700E2B918 /* RentUserTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC231E8FF7E700E2B918 /* RentUserTypeTableViewController.swift */; };
+		EFFABC261E8FF7F500E2B918 /* RentComTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC251E8FF7F500E2B918 /* RentComTableViewController.swift */; };
+		EFFABC281E8FF84E00E2B918 /* RentRemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC271E8FF84E00E2B918 /* RentRemTableViewController.swift */; };
+		EFFABC2A1E8FF89700E2B918 /* RentMatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFABC291E8FF89700E2B918 /* RentMatTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6608364ABAD38213F77C42F9 /* Pods_myHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07C9FAB1D8268B3F0A18224 /* Pods-myHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myHouse/Pods-myHouse.debug.xcconfig"; sourceTree = "<group>"; };
+		EF09C90D1EA8DF8D00B5DEB3 /* PreviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewTableViewController.swift; sourceTree = "<group>"; };
+		EF0BC7191E39876A009D744B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EF0BC71B1E399A44009D744B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF16B0A41E48FFA6008FE4A4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EF19158B1EAA36950095D11D /* KupitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KupitViewController.swift; sourceTree = "<group>"; };
+		EF19158D1EAA36C80095D11D /* SnyatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnyatViewController.swift; sourceTree = "<group>"; };
+		EF2AE6D01E6DF9D5000AE461 /* AddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		EF2AE6D21E6E0738000AE461 /* TypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeTableViewController.swift; sourceTree = "<group>"; };
+		EF3FE8901E521B9900EC26C2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EF46DFDE1E38376100579247 /* myHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF46DFE11E38376100579247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF46DFE31E38376100579247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF46DFE61E38376100579247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF46DFE81E38376100579247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF46DFEB1E38376100579247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF46DFED1E38376100579247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF46DFF31E3837C000579247 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF46DFF51E3837D200579247 /* SingUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		EF5455781EC09AE2004CA1B4 /* PreviewDachaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewDachaTableViewController.swift; sourceTree = "<group>"; };
+		EF54557B1EC0B376004CA1B4 /* SearchHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHomeViewController.swift; sourceTree = "<group>"; };
+		EF54557F1EC0B3C7004CA1B4 /* SearchDmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDmViewController.swift; sourceTree = "<group>"; };
+		EF5455811EC0B3EB004CA1B4 /* PreviewHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewHomeTableViewController.swift; sourceTree = "<group>"; };
+		EF5455831EC0B406004CA1B4 /* PreviewDmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewDmTableViewController.swift; sourceTree = "<group>"; };
+		EF5455851EC0B4B5004CA1B4 /* PostSnyatHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSnyatHomeCell.swift; sourceTree = "<group>"; };
+		EF5455871EC0B4EA004CA1B4 /* PostSnyatDomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSnyatDomCell.swift; sourceTree = "<group>"; };
+		EF61639960145DCBFC12972A /* Pods-myHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-myHouse/Pods-myHouse.release.xcconfig"; sourceTree = "<group>"; };
+		EF69BC2D1E583451000D3823 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		EF69BC2F1E583B2F000D3823 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EF69BC311E583C76000D3823 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EF6B01B81E8D3BEF00AF3B7E /* AddDomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDomTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01BA1E8D40D600AF3B7E /* DomTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomTypeTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01BC1E8D485500AF3B7E /* DomFloorsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomFloorsHomeTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01BE1E8D487600AF3B7E /* DomVodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomVodTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01C01E8D488300AF3B7E /* DomGasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomGasTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01C21E8D489400AF3B7E /* DomPlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomPlanTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01C41E8D48A300AF3B7E /* DomBathroomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomBathroomTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01C61E8D48B500AF3B7E /* DomOtopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomOtopTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01C81E8D48CA00AF3B7E /* DomTypeOtopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomTypeOtopTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01CA1E8D48E700AF3B7E /* DomCanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomCanTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01CC1E8D48F600AF3B7E /* DomNumRoomsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomNumRoomsTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01CE1E8D490100AF3B7E /* DomMatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomMatTableViewController.swift; sourceTree = "<group>"; };
+		EF6B01D01E8D491100AF3B7E /* DomUserTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomUserTypeTableViewController.swift; sourceTree = "<group>"; };
+		EF9703A81E66E0D8000140FB /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		EF9CC0511EBE377400EFF998 /* SearchDachaCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDachaCollectionViewController.swift; sourceTree = "<group>"; };
+		EF9CC0531EBE3A8700EFF998 /* PostKupitDachCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostKupitDachCell.swift; sourceTree = "<group>"; };
+		EFA1722C1E69CDDE002F4429 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EFAE94F41E7487C000C284B0 /* NumRoomsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumRoomsTableViewController.swift; sourceTree = "<group>"; };
+		EFBF13421E7577A900440741 /* OperationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
+		EFBF13441E757BFC00440741 /* FloorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorTableViewController.swift; sourceTree = "<group>"; };
+		EFBF13461E75808100440741 /* FloorsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorsHomeTableViewController.swift; sourceTree = "<group>"; };
+		EFBF13481E7580D700440741 /* TypeHouseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeHouseTableViewController.swift; sourceTree = "<group>"; };
+		EFBF134A1E75820900440741 /* PlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewController.swift; sourceTree = "<group>"; };
+		EFBF134C1E75822B00440741 /* BathroomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BathroomTableViewController.swift; sourceTree = "<group>"; };
+		EFBF134E1E758D9F00440741 /* UserTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTypeTableViewController.swift; sourceTree = "<group>"; };
+		EFBF13501E7599A800440741 /* SaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		EFC435491E50022700ECD2E4 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		EFCB5F261E52DAD20068A60F /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		EFE4BD871E45776500B0F777 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		EFE7E64D1E9145CE00F69342 /* AddRentDomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRentDomTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E64F1E91463200F69342 /* RTypeHouseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTypeHouseTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6511E91464200F69342 /* RTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTimeTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6531E91465100F69342 /* RNumRoomsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNumRoomsTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6571E91467700F69342 /* RFloorsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFloorsHomeTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6591E91468A00F69342 /* RPlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPlanTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E65B1E91469C00F69342 /* RBathroomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBathroomTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E65D1E9146B100F69342 /* RVodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVodTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E65F1E9146C600F69342 /* RGasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGasTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6611E9146DB00F69342 /* ROtopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROtopTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6631E9146ED00F69342 /* ROtopTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROtopTypeTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6651E9146F900F69342 /* RCanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCanTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6671E91470E00F69342 /* RMatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMatTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E6691E91471D00F69342 /* RUserTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUserTypeTableViewController.swift; sourceTree = "<group>"; };
+		EFE7E66B1E915F3600F69342 /* RemontTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemontTableViewController.swift; sourceTree = "<group>"; };
+		EFF25EB61E8E56D1006C5078 /* AddDachTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDachTableViewController.swift; sourceTree = "<group>"; };
+		EFF25EB81E8E5CF5006C5078 /* DachTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DachTypeTableViewController.swift; sourceTree = "<group>"; };
+		EFF25EBA1E8E5D0B006C5078 /* DachAvtTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DachAvtTableViewController.swift; sourceTree = "<group>"; };
+		EFF25EBC1E8E5D1B006C5078 /* DachUserTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DachUserTypeTableViewController.swift; sourceTree = "<group>"; };
+		EFF9636B1EBB8794008B5341 /* SearchDomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDomViewController.swift; sourceTree = "<group>"; };
+		EFF9636D1EBB87B2008B5341 /* PreviewDomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewDomTableViewController.swift; sourceTree = "<group>"; };
+		EFF963711EBB895C008B5341 /* PostKupitDomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostKupitDomCell.swift; sourceTree = "<group>"; };
+		EFFABC0D1E8FF5C600E2B918 /* RentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
+		EFFABC111E8FF6E300E2B918 /* AddRentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRentTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC131E8FF73200E2B918 /* TimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC151E8FF75B00E2B918 /* RentTypeDomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentTypeDomTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC171E8FF77000E2B918 /* RentNumRoomsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentNumRoomsTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC191E8FF78400E2B918 /* RentFloorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentFloorTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC1B1E8FF79900E2B918 /* RentFloorsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentFloorsHomeTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC1D1E8FF7A900E2B918 /* RentTypeHouseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentTypeHouseTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC1F1E8FF7C100E2B918 /* RentPlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentPlanTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC211E8FF7D000E2B918 /* RentBathroomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentBathroomTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC231E8FF7E700E2B918 /* RentUserTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentUserTypeTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC251E8FF7F500E2B918 /* RentComTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentComTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC271E8FF84E00E2B918 /* RentRemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentRemTableViewController.swift; sourceTree = "<group>"; };
+		EFFABC291E8FF89700E2B918 /* RentMatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentMatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +203,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0BC71A1E39876A009D744B /* AdSupport.framework in Frameworks */,
+				CE43AB775DCD5A478C69D39F /* Pods_myHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A6E2A30BE0D12FC97D4441C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0BC7191E39876A009D744B /* AdSupport.framework */,
+				6608364ABAD38213F77C42F9 /* Pods_myHouse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE73B5B25A818B9519FA3C1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E07C9FAB1D8268B3F0A18224 /* Pods-myHouse.debug.xcconfig */,
+				EF61639960145DCBFC12972A /* Pods-myHouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF46DFD51E38376100579247 = {
 			isa = PBXGroup;
 			children = (
 				EF46DFE01E38376100579247 /* myHouse */,
 				EF46DFDF1E38376100579247 /* Products */,
+				BE73B5B25A818B9519FA3C1E /* Pods */,
+				7A6E2A30BE0D12FC97D4441C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +250,194 @@
 		EF46DFE01E38376100579247 /* myHouse */ = {
 			isa = PBXGroup;
 			children = (
+				EFA9124D1E5AEC0B00277740 /* Objects */,
+				EFA9124F1E5AEC5E00277740 /* Custom Cell */,
+				EFA9124E1E5AEC2C00277740 /* View Controllers */,
 				EF46DFE11E38376100579247 /* AppDelegate.swift */,
-				EF46DFE31E38376100579247 /* ViewController.swift */,
 				EF46DFE51E38376100579247 /* Main.storyboard */,
 				EF46DFE81E38376100579247 /* Assets.xcassets */,
 				EF46DFEA1E38376100579247 /* LaunchScreen.storyboard */,
+				EF0BC71B1E399A44009D744B /* GoogleService-Info.plist */,
 				EF46DFED1E38376100579247 /* Info.plist */,
 			);
 			path = myHouse;
+			sourceTree = "<group>";
+		};
+		EF54557A1EC0B28A004CA1B4 /* Снять */ = {
+			isa = PBXGroup;
+			children = (
+				EF19158D1EAA36C80095D11D /* SnyatViewController.swift */,
+				EF54557B1EC0B376004CA1B4 /* SearchHomeViewController.swift */,
+				EF5455811EC0B3EB004CA1B4 /* PreviewHomeTableViewController.swift */,
+				EF54557F1EC0B3C7004CA1B4 /* SearchDmViewController.swift */,
+				EF5455831EC0B406004CA1B4 /* PreviewDmTableViewController.swift */,
+			);
+			name = "Снять";
+			sourceTree = "<group>";
+		};
+		EF6B01B61E8D3B6400AF3B7E /* Дома */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B01B81E8D3BEF00AF3B7E /* AddDomTableViewController.swift */,
+				EF6B01BA1E8D40D600AF3B7E /* DomTypeTableViewController.swift */,
+				EF6B01BC1E8D485500AF3B7E /* DomFloorsHomeTableViewController.swift */,
+				EF6B01BE1E8D487600AF3B7E /* DomVodTableViewController.swift */,
+				EF6B01C01E8D488300AF3B7E /* DomGasTableViewController.swift */,
+				EF6B01C21E8D489400AF3B7E /* DomPlanTableViewController.swift */,
+				EF6B01C41E8D48A300AF3B7E /* DomBathroomTableViewController.swift */,
+				EF6B01C61E8D48B500AF3B7E /* DomOtopTableViewController.swift */,
+				EF6B01C81E8D48CA00AF3B7E /* DomTypeOtopTableViewController.swift */,
+				EF6B01CA1E8D48E700AF3B7E /* DomCanTableViewController.swift */,
+				EF6B01CC1E8D48F600AF3B7E /* DomNumRoomsTableViewController.swift */,
+				EF6B01CE1E8D490100AF3B7E /* DomMatTableViewController.swift */,
+				EF6B01D01E8D491100AF3B7E /* DomUserTypeTableViewController.swift */,
+			);
+			name = "Дома";
+			sourceTree = "<group>";
+		};
+		EF6B01B71E8D3B7200AF3B7E /* Дачные участки */ = {
+			isa = PBXGroup;
+			children = (
+				EFF25EB61E8E56D1006C5078 /* AddDachTableViewController.swift */,
+				EFF25EB81E8E5CF5006C5078 /* DachTypeTableViewController.swift */,
+				EFF25EBA1E8E5D0B006C5078 /* DachAvtTableViewController.swift */,
+				EFF25EBC1E8E5D1B006C5078 /* DachUserTypeTableViewController.swift */,
+			);
+			name = "Дачные участки";
+			sourceTree = "<group>";
+		};
+		EFA9124D1E5AEC0B00277740 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EF69BC2F1E583B2F000D3823 /* Post.swift */,
+				EFC435491E50022700ECD2E4 /* CustomImageView.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		EFA9124E1E5AEC2C00277740 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF46DFF31E3837C000579247 /* LoginViewController.swift */,
+				EF46DFF51E3837D200579247 /* SingUpViewController.swift */,
+				EFE4BD871E45776500B0F777 /* ResetPasswordViewController.swift */,
+				EFA1722C1E69CDDE002F4429 /* AboutViewController.swift */,
+				EF9703A81E66E0D8000140FB /* RecordViewController.swift */,
+				EF3FE8901E521B9900EC26C2 /* ProfileViewController.swift */,
+				EFCB5F261E52DAD20068A60F /* EditProfileViewController.swift */,
+				EF16B0A41E48FFA6008FE4A4 /* HomeViewController.swift */,
+				EFBF13421E7577A900440741 /* OperationsViewController.swift */,
+				EFF9636A1EBB871B008B5341 /* Купить */,
+				EF54557A1EC0B28A004CA1B4 /* Снять */,
+				EFAE94F61E748B1A00C284B0 /* Продажа */,
+				EFFABC0C1E8FF53E00E2B918 /* Аренда */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EFA9124F1E5AEC5E00277740 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EF69BC2D1E583451000D3823 /* PostCell.swift */,
+				EFF963711EBB895C008B5341 /* PostKupitDomCell.swift */,
+				EF9CC0531EBE3A8700EFF998 /* PostKupitDachCell.swift */,
+				EF5455851EC0B4B5004CA1B4 /* PostSnyatHomeCell.swift */,
+				EF5455871EC0B4EA004CA1B4 /* PostSnyatDomCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		EFAE94F61E748B1A00C284B0 /* Продажа */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF13501E7599A800440741 /* SaleViewController.swift */,
+				EFAE94F71E748B2B00C284B0 /* Квартиры */,
+				EF6B01B61E8D3B6400AF3B7E /* Дома */,
+				EF6B01B71E8D3B7200AF3B7E /* Дачные участки */,
+			);
+			name = "Продажа";
+			sourceTree = "<group>";
+		};
+		EFAE94F71E748B2B00C284B0 /* Квартиры */ = {
+			isa = PBXGroup;
+			children = (
+				EF2AE6D01E6DF9D5000AE461 /* AddTableViewController.swift */,
+				EF2AE6D21E6E0738000AE461 /* TypeTableViewController.swift */,
+				EFAE94F41E7487C000C284B0 /* NumRoomsTableViewController.swift */,
+				EFBF13441E757BFC00440741 /* FloorTableViewController.swift */,
+				EFBF13461E75808100440741 /* FloorsHomeTableViewController.swift */,
+				EFBF13481E7580D700440741 /* TypeHouseTableViewController.swift */,
+				EFBF134A1E75820900440741 /* PlanTableViewController.swift */,
+				EFBF134C1E75822B00440741 /* BathroomTableViewController.swift */,
+				EFE7E66B1E915F3600F69342 /* RemontTableViewController.swift */,
+				EFBF134E1E758D9F00440741 /* UserTypeTableViewController.swift */,
+			);
+			name = "Квартиры";
+			sourceTree = "<group>";
+		};
+		EFF9636A1EBB871B008B5341 /* Купить */ = {
+			isa = PBXGroup;
+			children = (
+				EF19158B1EAA36950095D11D /* KupitViewController.swift */,
+				EF69BC311E583C76000D3823 /* SearchViewController.swift */,
+				EF09C90D1EA8DF8D00B5DEB3 /* PreviewTableViewController.swift */,
+				EFF9636B1EBB8794008B5341 /* SearchDomViewController.swift */,
+				EFF9636D1EBB87B2008B5341 /* PreviewDomTableViewController.swift */,
+				EF9CC0511EBE377400EFF998 /* SearchDachaCollectionViewController.swift */,
+				EF5455781EC09AE2004CA1B4 /* PreviewDachaTableViewController.swift */,
+			);
+			name = "Купить";
+			sourceTree = "<group>";
+		};
+		EFFABC0C1E8FF53E00E2B918 /* Аренда */ = {
+			isa = PBXGroup;
+			children = (
+				EFFABC0D1E8FF5C600E2B918 /* RentViewController.swift */,
+				EFFABC0F1E8FF65600E2B918 /* Квартиры */,
+				EFFABC101E8FF66200E2B918 /* Дома */,
+			);
+			name = "Аренда";
+			sourceTree = "<group>";
+		};
+		EFFABC0F1E8FF65600E2B918 /* Квартиры */ = {
+			isa = PBXGroup;
+			children = (
+				EFFABC111E8FF6E300E2B918 /* AddRentTableViewController.swift */,
+				EFFABC131E8FF73200E2B918 /* TimeTableViewController.swift */,
+				EFFABC171E8FF77000E2B918 /* RentNumRoomsTableViewController.swift */,
+				EFFABC191E8FF78400E2B918 /* RentFloorTableViewController.swift */,
+				EFFABC1B1E8FF79900E2B918 /* RentFloorsHomeTableViewController.swift */,
+				EFFABC1D1E8FF7A900E2B918 /* RentTypeHouseTableViewController.swift */,
+				EFFABC1F1E8FF7C100E2B918 /* RentPlanTableViewController.swift */,
+				EFFABC211E8FF7D000E2B918 /* RentBathroomTableViewController.swift */,
+				EFFABC271E8FF84E00E2B918 /* RentRemTableViewController.swift */,
+				EFFABC151E8FF75B00E2B918 /* RentTypeDomTableViewController.swift */,
+				EFFABC291E8FF89700E2B918 /* RentMatTableViewController.swift */,
+				EFFABC251E8FF7F500E2B918 /* RentComTableViewController.swift */,
+				EFFABC231E8FF7E700E2B918 /* RentUserTypeTableViewController.swift */,
+			);
+			name = "Квартиры";
+			sourceTree = "<group>";
+		};
+		EFFABC101E8FF66200E2B918 /* Дома */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7E64D1E9145CE00F69342 /* AddRentDomTableViewController.swift */,
+				EFE7E64F1E91463200F69342 /* RTypeHouseTableViewController.swift */,
+				EFE7E6511E91464200F69342 /* RTimeTableViewController.swift */,
+				EFE7E6531E91465100F69342 /* RNumRoomsTableViewController.swift */,
+				EFE7E6571E91467700F69342 /* RFloorsHomeTableViewController.swift */,
+				EFE7E6591E91468A00F69342 /* RPlanTableViewController.swift */,
+				EFE7E65B1E91469C00F69342 /* RBathroomTableViewController.swift */,
+				EFE7E65D1E9146B100F69342 /* RVodTableViewController.swift */,
+				EFE7E65F1E9146C600F69342 /* RGasTableViewController.swift */,
+				EFE7E6611E9146DB00F69342 /* ROtopTableViewController.swift */,
+				EFE7E6631E9146ED00F69342 /* ROtopTypeTableViewController.swift */,
+				EFE7E6651E9146F900F69342 /* RCanTableViewController.swift */,
+				EFE7E6671E91470E00F69342 /* RMatTableViewController.swift */,
+				EFE7E6691E91471D00F69342 /* RUserTypeTableViewController.swift */,
+			);
+			name = "Дома";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +447,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF46DFF01E38376100579247 /* Build configuration list for PBXNativeTarget "myHouse" */;
 			buildPhases = (
+				1DE56387B5AA3CD34C65AF35 /* [CP] Check Pods Manifest.lock */,
 				EF46DFDA1E38376100579247 /* Sources */,
 				EF46DFDB1E38376100579247 /* Frameworks */,
 				EF46DFDC1E38376100579247 /* Resources */,
+				B432436AB13DD44114E187AF /* [CP] Embed Pods Frameworks */,
+				78F5BA2637F78438A317722E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF46DFEC1E38376100579247 /* LaunchScreen.storyboard in Resources */,
+				EF0BC71C1E399A44009D744B /* GoogleService-Info.plist in Resources */,
 				EF46DFE91E38376100579247 /* Assets.xcassets in Resources */,
 				EF46DFE71E38376100579247 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +512,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DE56387B5AA3CD34C65AF35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78F5BA2637F78438A317722E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myHouse/Pods-myHouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B432436AB13DD44114E187AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myHouse/Pods-myHouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF46DFDA1E38376100579247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF46DFE41E38376100579247 /* ViewController.swift in Sources */,
+				EF5455861EC0B4B5004CA1B4 /* PostSnyatHomeCell.swift in Sources */,
+				EFFABC1C1E8FF79900E2B918 /* RentFloorsHomeTableViewController.swift in Sources */,
+				EFFABC141E8FF73200E2B918 /* TimeTableViewController.swift in Sources */,
+				EF69BC321E583C76000D3823 /* SearchViewController.swift in Sources */,
+				EF46DFF41E3837C000579247 /* LoginViewController.swift in Sources */,
+				EFE7E65E1E9146B100F69342 /* RVodTableViewController.swift in Sources */,
+				EF6B01CD1E8D48F600AF3B7E /* DomNumRoomsTableViewController.swift in Sources */,
+				EFE7E66C1E915F3600F69342 /* RemontTableViewController.swift in Sources */,
+				EFFABC1E1E8FF7A900E2B918 /* RentTypeHouseTableViewController.swift in Sources */,
+				EFBF134B1E75820900440741 /* PlanTableViewController.swift in Sources */,
+				EFE7E6621E9146DB00F69342 /* ROtopTableViewController.swift in Sources */,
+				EFE7E6601E9146C600F69342 /* RGasTableViewController.swift in Sources */,
+				EF46DFF61E3837D200579247 /* SingUpViewController.swift in Sources */,
+				EFFABC261E8FF7F500E2B918 /* RentComTableViewController.swift in Sources */,
+				EFE7E64E1E9145CE00F69342 /* AddRentDomTableViewController.swift in Sources */,
+				EFE7E6661E9146F900F69342 /* RCanTableViewController.swift in Sources */,
+				EFFABC161E8FF75B00E2B918 /* RentTypeDomTableViewController.swift in Sources */,
+				EFE7E6641E9146ED00F69342 /* ROtopTypeTableViewController.swift in Sources */,
+				EFFABC1A1E8FF78400E2B918 /* RentFloorTableViewController.swift in Sources */,
+				EFBF13511E7599A800440741 /* SaleViewController.swift in Sources */,
+				EFE7E6681E91470E00F69342 /* RMatTableViewController.swift in Sources */,
+				EF9CC0541EBE3A8700EFF998 /* PostKupitDachCell.swift in Sources */,
+				EFBF13471E75808100440741 /* FloorsHomeTableViewController.swift in Sources */,
+				EF6B01D11E8D491100AF3B7E /* DomUserTypeTableViewController.swift in Sources */,
+				EFFABC281E8FF84E00E2B918 /* RentRemTableViewController.swift in Sources */,
+				EFF9636C1EBB8794008B5341 /* SearchDomViewController.swift in Sources */,
+				EF5455801EC0B3C7004CA1B4 /* SearchDmViewController.swift in Sources */,
+				EFE7E6501E91463200F69342 /* RTypeHouseTableViewController.swift in Sources */,
+				EF19158C1EAA36950095D11D /* KupitViewController.swift in Sources */,
+				EF9703A91E66E0D8000140FB /* RecordViewController.swift in Sources */,
+				EF69BC2E1E583451000D3823 /* PostCell.swift in Sources */,
+				EF6B01BF1E8D487600AF3B7E /* DomVodTableViewController.swift in Sources */,
+				EFE7E65C1E91469C00F69342 /* RBathroomTableViewController.swift in Sources */,
+				EF2AE6D11E6DF9D5000AE461 /* AddTableViewController.swift in Sources */,
+				EFFABC201E8FF7C100E2B918 /* RentPlanTableViewController.swift in Sources */,
+				EFFABC2A1E8FF89700E2B918 /* RentMatTableViewController.swift in Sources */,
+				EFFABC121E8FF6E300E2B918 /* AddRentTableViewController.swift in Sources */,
+				EFE4BD881E45776500B0F777 /* ResetPasswordViewController.swift in Sources */,
+				EFFABC181E8FF77000E2B918 /* RentNumRoomsTableViewController.swift in Sources */,
+				EF69BC301E583B2F000D3823 /* Post.swift in Sources */,
+				EFBF13491E7580D700440741 /* TypeHouseTableViewController.swift in Sources */,
+				EFC4354A1E50022700ECD2E4 /* CustomImageView.swift in Sources */,
+				EFA1722D1E69CDDE002F4429 /* AboutViewController.swift in Sources */,
+				EFAE94F51E7487C100C284B0 /* NumRoomsTableViewController.swift in Sources */,
 				EF46DFE21E38376100579247 /* AppDelegate.swift in Sources */,
+				EF6B01CF1E8D490100AF3B7E /* DomMatTableViewController.swift in Sources */,
+				EF6B01BD1E8D485500AF3B7E /* DomFloorsHomeTableViewController.swift in Sources */,
+				EFF25EBB1E8E5D0B006C5078 /* DachAvtTableViewController.swift in Sources */,
+				EF6B01C91E8D48CA00AF3B7E /* DomTypeOtopTableViewController.swift in Sources */,
+				EF5455821EC0B3EB004CA1B4 /* PreviewHomeTableViewController.swift in Sources */,
+				EF19158E1EAA36C80095D11D /* SnyatViewController.swift in Sources */,
+				EFF9636E1EBB87B2008B5341 /* PreviewDomTableViewController.swift in Sources */,
+				EFBF13431E7577A900440741 /* OperationsViewController.swift in Sources */,
+				EF2AE6D31E6E0738000AE461 /* TypeTableViewController.swift in Sources */,
+				EFFABC221E8FF7D000E2B918 /* RentBathroomTableViewController.swift in Sources */,
+				EF09C90E1EA8DF8D00B5DEB3 /* PreviewTableViewController.swift in Sources */,
+				EFF25EB71E8E56D1006C5078 /* AddDachTableViewController.swift in Sources */,
+				EF6B01B91E8D3BEF00AF3B7E /* AddDomTableViewController.swift in Sources */,
+				EF9CC0521EBE377400EFF998 /* SearchDachaCollectionViewController.swift in Sources */,
+				EFFABC0E1E8FF5C600E2B918 /* RentViewController.swift in Sources */,
+				EF54557C1EC0B376004CA1B4 /* SearchHomeViewController.swift in Sources */,
+				EFBF13451E757BFC00440741 /* FloorTableViewController.swift in Sources */,
+				EF3FE8911E521B9900EC26C2 /* ProfileViewController.swift in Sources */,
+				EFE7E6521E91464200F69342 /* RTimeTableViewController.swift in Sources */,
+				EFBF134F1E758D9F00440741 /* UserTypeTableViewController.swift in Sources */,
+				EFE7E6541E91465100F69342 /* RNumRoomsTableViewController.swift in Sources */,
+				EF5455881EC0B4EA004CA1B4 /* PostSnyatDomCell.swift in Sources */,
+				EFCB5F271E52DAD20068A60F /* EditProfileViewController.swift in Sources */,
+				EFBF134D1E75822C00440741 /* BathroomTableViewController.swift in Sources */,
+				EF5455841EC0B406004CA1B4 /* PreviewDmTableViewController.swift in Sources */,
+				EF6B01C51E8D48A300AF3B7E /* DomBathroomTableViewController.swift in Sources */,
+				EF6B01C11E8D488300AF3B7E /* DomGasTableViewController.swift in Sources */,
+				EFF25EBD1E8E5D1B006C5078 /* DachUserTypeTableViewController.swift in Sources */,
+				EFE7E6581E91467700F69342 /* RFloorsHomeTableViewController.swift in Sources */,
+				EFF25EB91E8E5CF5006C5078 /* DachTypeTableViewController.swift in Sources */,
+				EF5455791EC09AE2004CA1B4 /* PreviewDachaTableViewController.swift in Sources */,
+				EFFABC241E8FF7E700E2B918 /* RentUserTypeTableViewController.swift in Sources */,
+				EFF963721EBB895C008B5341 /* PostKupitDomCell.swift in Sources */,
+				EF6B01CB1E8D48E700AF3B7E /* DomCanTableViewController.swift in Sources */,
+				EF6B01C71E8D48B500AF3B7E /* DomOtopTableViewController.swift in Sources */,
+				EF16B0A51E48FFA6008FE4A4 /* HomeViewController.swift in Sources */,
+				EFE7E66A1E91471D00F69342 /* RUserTypeTableViewController.swift in Sources */,
+				EF6B01C31E8D489400AF3B7E /* DomPlanTableViewController.swift in Sources */,
+				EFE7E65A1E91468A00F69342 /* RPlanTableViewController.swift in Sources */,
+				EF6B01BB1E8D40D600AF3B7E /* DomTypeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +768,14 @@
 		};
 		EF46DFF11E38376100579247 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07C9FAB1D8268B3F0A18224 /* Pods-myHouse.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8FNMTLGN4R;
 				INFOPLIST_FILE = myHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.myHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +785,14 @@
 		};
 		EF46DFF21E38376100579247 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF61639960145DCBFC12972A /* Pods-myHouse.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8FNMTLGN4R;
 				INFOPLIST_FILE = myHouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.myHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +819,7 @@
 				EF46DFF21E38376100579247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
