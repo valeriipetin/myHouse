@@ -472,9 +472,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Поиск квартир" id="CAG-iD-hkX">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="lpE-om-412"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Поиск квартир" id="CAG-iD-hkX"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
